@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-color:  black;
+    color: aliceblue;
+}
+.home{
+    border: 1px solid black;
+    max-width: 25%;
+    border-radius: 20px;
+    background-color: rgb(15, 15, 15);
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.library{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(15, 15, 15);
+    max-width: 25%;
+    margin-left: 5px;
+    margin-top: 10px;
+    max-height: 80%;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.list li{
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+.cookies a{
+    margin-left: 40px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.lang{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    border: 1px solid white;
+    border-radius: 30px;
+    max-width: fit-content;
+    padding-right: 7px;
+}
+.playlist{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(46, 44, 44);
+    padding-left: 15px;
+    
+}
+.create{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    max-width: fit-content;
+    padding: 5px;
+}
