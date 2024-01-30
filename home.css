@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    background-color:  black;
+    color: aliceblue;
+}
+.total{
+    display: flex;
+}
+
+.home1{
+    max-width: 30%;
+    margin-right: 10px;
+}
+
+.home{
+    border: 1px solid black;
+    max-width: 100%;
+    border-radius: 20px;
+    background-color: rgb(15, 15, 15);
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.library{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(15, 15, 15);
+    max-width: 100%;
+    margin-left: 5px;
+    margin-top: 10px;
+    max-height: 80%;
+}
+
+.playlist{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(46, 44, 44);
+    padding-left: 15px;
+    
+}
+
+.create{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    max-width: fit-content;
+    padding: 5px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.list li{
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+.cookies a{
+    margin-left: 40px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.lang{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    border: 1px solid white;
+    border-radius: 30px;
+    max-width: fit-content;
+    padding-right: 7px;
+}
+.play{
+    max-width: 100%;
+    width: 100vw;
+}
+.playlist1{
+    display: flex;
+    border: 1px solid black;
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+    max-width: 100%;
+    margin-top: 10px;
+
+}
+.lt{
+    display: flex;
+}
+
+.lt h5{
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 100%;
+    max-width: fit-content;
+    padding: 15px;
+    background-color: gray;
+    color: white;
+}
+
+.login{
+    display: flex;
+    margin-left: 73%;
+    align-items: center;
+}
+
+.login a{ 
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 30px;
+    color: gray;
+    
+}
+
+.login1 a{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.harris, .pradeep, .u1, .arr, .ani{
+    padding: 0%;
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: fit-content;
+    max-height: 50%;
+    padding: 5px;
+    background-color: rgb(15, 15, 15);
+    margin-right: 5px;
+    height: 280px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.playlist2{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+}
+
+.singers{
+    display: flex;
+    padding: 0%;
+}
+
+.guru a{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    max-width: fit-content;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 45px;
+}
+
+.singers :hover{
+    background-color: rgb(90, 88, 88);
+}
+
+.extra{
+    display: flex;
+}
+
+.extra li{
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.harris, .pradeep, .u1, .arr, .ani:hover{
+    display: block;
+}
+
+.playbutton{
+    display: inline-block;
+    margin-left: 90px;
+    margin-bottom: 30px;   
+}
