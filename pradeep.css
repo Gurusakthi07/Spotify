@@ -3,9 +3,16 @@ body{
     background-color:  black;
     color: aliceblue;
 }
+.main{
+    display: flex;
+}
+.home1{
+    max-width: 30%;
+    
+}
 .home{
     border: 1px solid black;
-    max-width: 25%;
+    max-width: 100%;
     border-radius: 20px;
     background-color: rgb(15, 15, 15);
     margin-top: 10px;
@@ -16,7 +23,7 @@ body{
     border: 1px solid black;
     border-radius: 20px;
     background-color: rgb(15, 15, 15);
-    max-width: 25%;
+    max-width: 100%;
     margin-left: 5px;
     margin-top: 10px;
     max-height: 80%;
@@ -68,4 +75,74 @@ a:hover{
     color: black;
     max-width: fit-content;
     padding: 5px;
+}
+.topbar{
+    display: flex;
+    background-color: rgb(68, 4, 4);
+    max-width: 100%;
+    height: 350px;
+    margin-top: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px 8px 0 0;
+}
+
+.arrow{
+    background-color: rgba(0, 0, 0, 0.853);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.arrow{
+    width: 15px;
+    padding: 12px;
+
+}
+.pk{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-right: 5px;
+
+}
+.name{
+    margin-left: 250px;
+    margin-top: 40px ;
+    font-size: 80px;
+    
+}
+.a{
+    width: 100vw;
+}
+audio{
+    color: black;
+    width: 300px;
+    margin-top: 25px ;
+    height: 35px;
+    margin-left: 200px;
+}
+.songname1, .songname2, .songname3,.songname4{
+    display: flex;   
+}
+.name1,.name2,.name3,.name4{
+    margin-left: 230px; 
+    margin-top: 10px;
+}
+hr {  
+    height: 2px;  
+    background-color: rgba(128, 128, 128, 0.475);  
+    border: none;  
+}
+.name2{
+    margin-right: 125px;
+}
+.name3{
+    margin-right: -45px;
+}
+.name4{
+    margin-right: 90px;
 }
