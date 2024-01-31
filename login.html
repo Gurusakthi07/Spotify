@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Register</title>
+    <style>
+        h1{
+            font-family: inter;
+            font-size: 40px;
+        }
+        .heading{
+            font-family: poppins;
+            font-size: 15px;
+        }
+
+        .email-name,.pass-name{
+            color: white;
+            font-size: 24px;
+            margin-right: 20px;
+            font-family: inter;
+        }
+        .pass-name{
+            margin: top 5px;
+        }
+        .email-text,.password-text{
+            height: 30px;
+            width: 60%;
+            border-radius: 10px;
+            font-family: inter;
+        }
+        .email-text{
+            margin-left: 15px;
+            margin-bottom: 15px;
+        }
+        .terms{
+            color:azure;
+            font-family: poppins;
+            margin-top: 20px;
+            font-size: 13px;
+        }
+        .terms a{
+            color: #0EA5E9;
+            text-decoration: none;
+        }
+        .transbox {
+            background-color: rgb(0 0 0 /70%);
+            color: White;
+            width: 400px;
+            margin: auto;
+            margin-top: 90px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px 10px grey;
+            background-color: black;
+            opacity: 0.9;
+        }
+        body {
+            background-image: url("hero-image.webp");
+            background-size: cover;
+            
+            
+        }
+
+        .Button1 {
+            background-color: white;
+            color: black;
+            border: 2px solid #555555;
+            border-radius: 8px;
+            font-size: 16px;
+            padding: 8px;
+            margin-top: 1px;
+            margin-bottom: 5px;
+            transition-duration: 0.6s;
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 40px;
+            width: 40%;
+            font-family: poppins;
+            
+        }
+
+        .Button1:hover {
+            background-color: #100e0ed7;
+            color: white;
+
+        }
+
+        a.social {
+            display: inline-block;
+            background-color: aliceblue;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            border: black;
+            margin-right: 8px;
+            margin-bottom: 50px;
+        }
+
+        .img {
+            border: 1px white;
+            border-radius: 50px;
+            padding: 5px;
+        }
+        .login{
+            text-decoration: none;
+            color: black;
+        }
+        .login:hover{
+            background-color: #100e0ed7;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="transbox">
+            <h1><b>Login</b></h1>
+            <p class="heading">Register to create a new account</p> <br>
+            <label for="email" class="email-name"> <b>Email ID</b> </label>
+            <input class="email-text" type="email" id="email" placeholder=" &nbsp;Enter email ID..!" required> <br><br>
+            <label for="pwd" class="pass-name"> <b>Password</b> </label>
+            <input class="password-text" id="pwd" placeholder=" &nbsp;Enter password..!" required type="password"> <br><br>
+            <p class="terms">By creating an account you agree to <a href="#">Terms and condition</a></p> <br>
+            <button class="Button1"><a class="login" href="home.html"><b>Login</b></a></button><br>
+            <section>
+                <a href="https://accounts.google.com/v3/signin/identifier?hl=en-gb&ifkv=ASKXGp0ii3LQcRC0qj9q1blfKVHli5IKU3LRDIN6dfcoiWeCBmp3V_p3WfO7foUzOakCmEA5xigM&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-435356294%3A1705719938999053&theme=glif"
+                    class="social"><img class="img" width="30px" height="30px" src="google.jpg" alt="Google"></a>
+                <a href="https://m.facebook.com/login/?refsrc=deprecated" class="social"><img class="img" width="30px"
+                        height="30px" src="facebook.jpg" alt="Facebook"></a>
+                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fedit%2F%3F__coig_login%3D1"
+                    class="social"><img class="img" width="30px" height="30px" src="insta.jpg" alt="Instagram"></a>
+                <a href="https://twitter.com/i/flow/login" class="social"><img class="img" width="30px" height="30px"
+                        src="x.jpg" alt="Twitter"></a>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
