@@ -6,10 +6,14 @@ body{
 .total{
     display: flex;
 }
+.spotify img{
+    margin-left: -30px;
+}
 
 .home1{
     max-width: 30%;
     margin-right: 10px;
+    margin-left: 5px;
 }
 
 .home{
@@ -38,6 +42,10 @@ body{
     padding-left: 15px;
     
 }
+.lib{
+    color: gray;
+    margin-left: 10px;
+}
 
 .create{
     border: 1px solid black;
@@ -58,6 +66,9 @@ body{
 .list li{
     margin-top: 10px;
     margin-right: 20px;
+    margin-left: -15px;
+    color: gray;
+    font-size: 15px;
     
 }
 
@@ -65,7 +76,7 @@ body{
     margin-left: 40px;
     text-decoration: none;
     margin-bottom: 20px;
-    color: white;
+    color: gray;
     
 }
 a:hover{
@@ -112,6 +123,7 @@ a:hover{
     display: flex;
     margin-left: 73%;
     align-items: center;
+    font-family: playfair display;
 }
 
 .login a{ 
@@ -139,9 +151,10 @@ a:hover{
     padding: 5px;
     background-color: rgb(15, 15, 15);
     margin-right: 5px;
-    height: 280px;
+    height: 240px;
     width: 200px;
     margin-left: 20px;
+    position: relative;
 }
 
 .playlist2{
@@ -149,6 +162,7 @@ a:hover{
     border-radius: 20px;
     width: 100%;
     background-color: rgb(15, 15, 15);
+    margin-right: 5px;
 }
 
 .singers{
@@ -182,12 +196,68 @@ a:hover{
     margin-bottom: 10px;
 }
 
-.harris, .pradeep, .u1, .arr, .ani:hover{
+
+
+.playbutton{
+    display: none;
+    margin-left: 135px;
+    margin-bottom: 30px;   
+    position: absolute;
+    top: 140px;
+
+}
+
+.harris:hover .playbutton{
+    display: block;
+}
+.playbutton2{
+    display: none;
+    margin-left: 120px;
+    margin-bottom: 30px;   
+    position: absolute;
+    top: 140px;
+}
+.pradeep:hover .playbutton2{
     display: block;
 }
 
-.playbutton{
-    display: inline-block;
-    margin-left: 90px;
-    margin-bottom: 30px;   
+.u1:hover .playbutton2{
+    display: block;
 }
+.arr:hover .playbutton2{
+    display: block;
+}
+.ani:hover .playbutton2{
+    display: block;
+}
+
+a.social
+ {
+    display: inline-block;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius:100%;
+  border:black;
+  margin-right: 8px;
+  margin-bottom: auto;
+ } 
+ .img{
+    border: 1px  white;
+    border-radius: 50px;
+    padding: 5px;
+ }
+
+ .icons1{
+    display: flex;
+    margin-top: 7px;
+ }
+
+ .icons{
+    margin-left: 350px;
+    margin-top: 10px;
+ }
+
+ .first{
+    color: gray;
+ }
