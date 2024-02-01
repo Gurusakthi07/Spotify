@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    background-color:  black;
+    color: aliceblue;
+}
+.main{
+    display: flex;
+}
+.img{
+    margin-left: -30px;
+}
+.home1{
+    max-width: 30%;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+.home{
+    border: 1px solid black;
+    max-width: 100%;
+    border-radius: 20px;
+    background-color: rgb(15, 15, 15);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.library{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(15, 15, 15);
+    max-width: 100%;
+    margin-left: 5px;
+    margin-top: 10px;
+    max-height: 80%;
+}
+
+.playlist{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(46, 44, 44);
+    padding-left: 15px;
+    
+}
+.lib{
+    color: gray;
+    margin-left: 10px;
+}
+
+.create{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    max-width: fit-content;
+    padding: 5px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.list li{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: -15px;
+    color: gray;
+    font-size: 15px;
+    
+}
+
+.cookies a{
+    margin-left: 40px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: gray;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.lang{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    border: 1px solid white;
+    border-radius: 30px;
+    max-width: fit-content;
+    padding-right: 7px;
+}
+.topbar{
+    display: flex;
+    background-color: rgb(68, 4, 4);
+    max-width: 100%;
+    height: 350px;
+    margin-top: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px 8px 0 0;
+}
+
+.arrow{
+    background-color: rgba(0, 0, 0, 0.853);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.arrow{
+    width: 15px;
+    padding: 12px;
+
+}
+.pk{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-right: 5px;
+
+}
+.name{
+    margin-left: 250px;
+    margin-top: 40px ;
+    font-size: 80px;
+    
+}
+.a{
+    width: 100vw;
+}
+audio{
+    color: black;
+    width: 300px;
+    margin-top: 25px ;
+    height: 35px;
+    margin-left: 200px;
+}
+.songname1, .songname2, .songname3,.songname4{
+    display: flex;   
+}
+.name1,.name2,.name3,.name4{
+    margin-left: 230px; 
+    margin-top: 10px;
+}
+hr {  
+    height: 2px;  
+    background-color: rgba(128, 128, 128, 0.475);  
+    border: none;  
+}
+.name1{
+    margin-right: 105px;
+}
+.name2{
+    margin-right: 35px;
+}
+.name3{
+    margin-right: -48px;
+}
+.name4{
+    margin-right: 135px;
+}
